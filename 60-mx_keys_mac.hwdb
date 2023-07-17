@@ -1,4 +1,5 @@
 # MX Keys for Mac, swap command/option
 evdev:input:b0003v046Dp4092*
- KEYBOARD_KEY_700e2=leftmeta
- KEYBOARD_KEY_700e3=leftalt
+ KEYBOARD_KEY_700e2=leftmeta # bind option key to meta
+ KEYBOARD_KEY_700e3=leftalt  # bind command key to alt
+ KEYBOARD_KEY_70068=sysrq    # bind f13 to sysrq
