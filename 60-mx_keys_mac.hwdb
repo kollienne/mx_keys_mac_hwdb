@@ -3,3 +3,14 @@ evdev:input:b0003v046Dp4092*
  KEYBOARD_KEY_700e2=leftmeta # bind option key to meta
  KEYBOARD_KEY_700e3=leftalt  # bind command key to alt
  KEYBOARD_KEY_70068=sysrq    # bind f13 to sysrq
+
+# MX Keys S for Mac, swap command/option
+evdev:name:MX KEYS S MAC Keyboard:*
+ KEYBOARD_KEY_700e2=leftmeta # bind option key to meta
+ KEYBOARD_KEY_700e3=leftalt  # bind command key to alt
+ KEYBOARD_KEY_70068=sysrq    # bind f13 to sysrq
+
+# Macbook Air builtin keyboard, swap command/option
+devdev:name:Apple MTP keyboard:*
+ KEYBOARD_KEY_700e2=leftmeta # bind option key to meta
+ KEYBOARD_KEY_700e3=leftalt  # bind command key to alt
