@@ -17,3 +17,7 @@ evdev:name:Apple MTP keyboard:*
  KEYBOARD_KEY_700e2=leftmeta # bind option key to meta
  KEYBOARD_KEY_700e3=leftalt  # bind command key to alt
  KEYBOARD_KEY_70039=leftalt  # bind capslock key to alt
+
+# x9 aura 14
+evdev:name:AT Translated Set 2 keyboard:*
+ KEYBOARD_KEY_3a=leftalt  # bind capslock key to alt
